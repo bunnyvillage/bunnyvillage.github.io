@@ -31,3 +31,9 @@ p {
     font-size: 30px;
     text-align: justify;
 }
+
+span {
+    display: block;
+    margin: 20px auto auto auto;
+    text-align: center; 
+}

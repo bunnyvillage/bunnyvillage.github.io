@@ -6,15 +6,16 @@
 
 h1 {
     font-family: "Yusei Magic", sans-serif;
-    color: blue;
+    color: #fff;
     font-size: 30px;
     max-width: 30vw;
     text-align: center;
 }
 
-.super-coelho {
+.img-super-coelho {
     width: 80px;
     height: 90px;
+    filter: brightness(10000%);
 }
 
 footer {

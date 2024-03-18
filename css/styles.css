@@ -19,10 +19,10 @@ h1 {
 }
 
 footer {
-    width: 100vw;
+    width: 100%;
 }
 .container-menu {
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -37,12 +37,24 @@ p {
 }
 
 .container-texto {
-
-    width: 80vw;
-    margin: 50px auto;
+    width: 90%;
+    margin: 0 auto;
     background-color: #9c81fd;
     padding: 10px;
     border-radius: 10px;
+}
+
+.container-coelho-cenoura {
+        width: 80vw;
+        margin: 20px auto 0 auto;
+}
+
+.container-parallax {
+    width: 100%;
+    height: 80px;
+    background: url('../img/coelho-cenoura.gif') no-repeat center;
+    background-size: contain;
+    background-attachment: fixed;
 }
 
 span {

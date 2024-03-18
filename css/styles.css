@@ -12,24 +12,35 @@ h1 {
 }
 
 .super-coelho {
-    max-width: 150px;
-    width: 25vw;
+    width: 80px;
+    height: 90px;
 }
 
 footer {
     width: 100vw;
 }
-.container-imagem {
+.container-menu {
     width: 100vw;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    background-color: #666;
+    height: 100px;
+    align-items: center;
 }
 
 p {
-    margin: auto 5vw;
-    font-size: 30px;
+    font-size: 20px;
     text-align: justify;
+}
+
+.container-texto {
+
+    width: 80vw;
+    margin: 50px auto;
+    background-color: #b39ffa;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 span {

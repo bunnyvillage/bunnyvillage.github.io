@@ -7,8 +7,9 @@
 h1 {
     font-family: "Yusei Magic", sans-serif;
     color: blue;
-    font-size: 40px;
+    font-size: 30px;
     max-width: 30vw;
+    text-align: center;
 }
 
 .super-coelho {
@@ -38,7 +39,7 @@ p {
 
     width: 80vw;
     margin: 50px auto;
-    background-color: #b39ffa;
+    background-color: #9c81fd;
     padding: 10px;
     border-radius: 10px;
 }

@@ -37,16 +37,17 @@ p {
 }
 
 .container-texto {
-    width: 90%;
-    margin: 0 auto;
+    width: calc(100% - 20px);
+    margin: 0;
     background-color: #9c81fd;
     padding: 10px;
-    border-radius: 10px;
 }
 
 .container-coelho-cenoura {
         width: 80vw;
-        margin: 20px auto 0 auto;
+        margin: 0 auto;
+        max-width: 1000px;
+        min-width: 300px;
 }
 
 .container-parallax {
@@ -54,6 +55,7 @@ p {
     height: 80px;
     background: url('../img/coelho-cenoura.gif') no-repeat center;
     background-size: contain;
+    background-color: yellow;
     background-attachment: fixed;
 }
 

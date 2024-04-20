@@ -60,15 +60,13 @@ p {
 
 #primeiro-container img {
     width: 20%;
-    margin: 0 5px;
+    margin: 20px 5px 0;
 }
 
 #primeiro-paragrafo {
     background-color: #9c81fd;
     padding: 5px;
-}
-#primeiro-paragrafo p {
-    font-size: 20px;
+    margin-top: 20px;
 }
 
 .container-parallax {

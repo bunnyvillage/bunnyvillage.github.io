@@ -50,7 +50,7 @@ p {
     width: calc(100% - 20px);
     margin: 0;
     background-color: #9c81fd;
-    padding: 10px;
+    padding: 20px;
 }
 
 #primeiro-container {
@@ -75,7 +75,7 @@ p {
     background: url('../img/jean-gray.jpeg') no-repeat center;
     background-size: contain;
     background-attachment: fixed;
-    margin: 10px auto;
+    margin: 15px auto;
 }
 
 span {

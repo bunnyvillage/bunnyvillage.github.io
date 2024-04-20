@@ -34,8 +34,8 @@ footer {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    background-color: #666;
-    height: 100px;
+    background-color: #222;
+    height: 150px;
     align-items: center;
 }
 

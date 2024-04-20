@@ -4,6 +4,7 @@
     padding: 0;
 }
 
+
 h1 {
     font-family: "Yusei Magic", sans-serif;
     color: #fff;
@@ -44,10 +45,10 @@ p {
 }
 
 .container-coelho-cenoura {
-        width: 80vw;
         margin: 0 auto;
         max-width: 1000px;
         min-width: 300px;
+        background-color: yellow;
 }
 
 .container-parallax {
@@ -55,7 +56,6 @@ p {
     height: 80px;
     background: url('../img/coelho-cenoura.gif') no-repeat center;
     background-size: contain;
-    background-color: yellow;
     background-attachment: fixed;
 }
 

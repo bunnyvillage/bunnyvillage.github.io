@@ -4,9 +4,10 @@
     margin: 0;
     padding: 0;
 }
-
 main {
-    background-color: yellow;
+    margin: 0 auto;
+    max-width: 1000px;
+    min-width: 300px;
     padding: 0 50px;
 }
 
@@ -50,41 +51,29 @@ p {
     padding: 10px;
 }
 
-#par-imagem {
-    min-width: calc(100% - 35vw);
-    width: calc(100% - 250px);
-    margin: 0 auto;
+#primeiro-container {
+    display: flex;
+    justify-content: space-around;
 }
 
-.container-coelho-cenoura {
-    position: relative;
-    margin: 0 auto;
-    max-width: 1000px;
-    min-width: 300px;
-    background-color: yellow;
+#primeiro-container img {
+    width: 20%;
+    flex-grow: 1;
+    margin: 0 5px;
 }
-
-#img-coelho-cenoura-1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    max-width: 125px;
-    width: 15vw;
-}
-#img-coelho-cenoura-2 {
-    position: absolute;
-    top: 0;
-    right: 0;
-    max-width: 125px;
-    width: 15vw;
+#primeiro-paragrafo {
+    flex-grow: 2;
+    background-color: #9c81fd;
+    padding: 5px;
 }
 
 .container-parallax {
     width: 100%;
-    height: 80px;
+    height: 200px;
     background: url('../img/jean-gray.jpeg') no-repeat center;
     background-size: contain;
     background-attachment: fixed;
+    margin: 10px auto;
 }
 
 span {

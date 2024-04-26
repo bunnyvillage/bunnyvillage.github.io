@@ -25,6 +25,12 @@ h1 {
     filter: brightness(10000%);
 }
 
+.img-super-coelho:active {
+    background-color: red;
+    transition: transform 0.5s ease-in-out;
+    transform: scale(1.5);
+}
+
 footer {
     width: 100%;
 }

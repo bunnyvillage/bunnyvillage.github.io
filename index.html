@@ -10,15 +10,15 @@
 </head>
 
 <body>
-    <audio id="meuAudio" autoplay>
-        <source src="audio.mp3" type="audio/mp3">
-        Seu navegador não suporta áudio HTML5.
+    <audio id="meuAudio">
+        <source src="audio.ogg" type="audio/ogg">
+        Seu navegador não suporta a reprodução de áudio.
     </audio>
     <header>
         <div class="container-menu">
-            <img class="img-super-coelho" src="img/super-coelho.png" alt="Imagem do super coelho">
+            <img onclick="playAudio()" class="img-super-coelho" src="img/super-coelho.png" alt="Imagem do super coelho">
             <h1>Super Site</h1>
-            <img class="img-super-coelho" src="img/super-coelho.png" alt="Imagem do super coelho">
+            <img onclick="playAudio()" class="img-super-coelho" src="img/super-coelho.png" alt="Imagem do super coelho">
         </div>
     </header>
     <main>
@@ -52,7 +52,12 @@
         </div>
 
     </main>
-
+    <script>
+    function playAudio() {
+        var audio = document.getElementById("meuAudio");
+        audio.play();
+    }
+    </script>
     <footer>
         <span>©2024 all rights reserved</span>
     </footer>

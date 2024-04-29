@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
 }
+
 main {
     margin: 0 auto;
     max-width: 1000px;
@@ -19,17 +20,22 @@ h1 {
     text-align: center;
 }
 
-.img-super-coelho {
+.div-img-super-coelho {
     width: 170px;
-    height: 80px;
+    height: 90px;
+    /* position: relative; */
 }
 
-.img-super-coelho img {
+.div-img-super-coelho img {
     width: 80px;
     height: 90px;
 }
 
-.img-super-coelho:active {
+.img-coelho {
+    filter: brightness(10000%);
+}
+
+.div-img-super-coelho:active {
     background-color: red;
     transition: transform 0.5s ease-in-out;
     transform: scale(1.5);
@@ -54,7 +60,7 @@ p {
     font-size: 20px;
     text-align: justify;
     padding: 5px;
-    text-indent:30px;
+    text-indent: 30px;
 }
 
 .container-texto {
@@ -74,7 +80,8 @@ p {
     margin: 0 5px;
 
 }
-#container-primeiro-paragrafo{
+
+#container-primeiro-paragrafo {
     display: flex;
     align-items: center;
     justify-content: center;

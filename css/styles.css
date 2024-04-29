@@ -20,9 +20,13 @@ h1 {
 }
 
 .img-super-coelho {
+    width: 170px;
+    height: 80px;
+}
+
+.img-super-coelho img {
     width: 80px;
     height: 90px;
-    filter: brightness(10000%);
 }
 
 .img-super-coelho:active {

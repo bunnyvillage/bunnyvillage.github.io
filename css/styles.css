@@ -30,8 +30,21 @@ h1 {
     height: 90px;
 }
 
+nav a:hover {
+    color: #f00;
+    background-color: #fff;
+}
+
+a, ul {
+    text-decoration: none;
+    color: #fff;
+}
+
 .img-coelho {
     filter: brightness(10000%);
+}
+.img-coelho:hover {
+    cursor: pointer;
 }
 
 .div-img-super-coelho:active {
@@ -105,7 +118,6 @@ span {
         width: 20%;
         margin: 0 5px;
     }
-    
 }
 
 @media screen and (max-width: 500px) {
@@ -117,6 +129,12 @@ span {
     #primeiro-container-celular img {
         width: 20%;
         margin: 0 5px;
-    }
-    
+    }    
+}
+
+
+.contador {
+    margin: auto;
+    display: block;
+    margin-top: 10px;
 }

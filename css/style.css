@@ -95,9 +95,9 @@ footer {
 /* Media Queries */
 
 /* Estilos para dispositivos móveis */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .photo-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     nav ul li {
@@ -106,19 +106,9 @@ footer {
     }
 }
 
-/* Estilos para tablets */
-@media (min-width: 601px) and (max-width: 1024px) {
-    nav ul li {
-        display: block;
-        margin-bottom: 10px;
-    }
-    .photo-grid {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
 
 /* Estilos para desktops */
-@media (min-width: 1025px) {
+@media (min-width: 769px) {
     .photo-grid {
         grid-template-columns: repeat(5, 1fr);
     }

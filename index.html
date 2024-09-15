@@ -4,84 +4,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Super Site</title>
-    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Venda de Coelhos</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <audio id="meuAudio">
-        <source src="audio.mp3" type="audio/mp3">
-        Seu navegador não suporta a reprodução de áudio.
-    </audio>
     <header>
-        <div class="container-menu">           
-            <nav>
-                <ul>
-                    <ul>Livros</ul>
-                    <li><a href="origem-do-super-coelho.html">A origem do super coelho</a></li>
-                </ul>
-            </nav> 
-            <div class="div-img-super-coelho">
-                <img class="img-coelho" onclick="playAudio()"  src="img/super-coelho.png" alt="Imagem do super coelho">
-                <img src="img/arrow.gif" alt="">
-            </div>
-                <h1>Super Site</h1>
-            <div class="div-img-super-coelho">
-                <img class="img-coelho" onclick="playAudio()" class="img-super-coelho" src="img/super-coelho.png" alt="Imagem do super coelho">
-                <img src="img/arrow.gif" alt="">
-            </div>
-        </div>
+        <h1>BunnyVille</h1>
+        <p>Encontre o coelho perfeito</p>
     </header>
-    <main>
-        <div id="primeiro-container-pc">
-            <img id="img-coelho-cenoura-1" src="img/coelho-cenoura.gif" alt="">
-            <div id="container-primeiro-paragrafo" class="container-texto">
-                <p id="primeiro-paragrafo">Olá! Se você é novo por aqui e compartilha um amor por coelhos, este site é o
-                    lugar perfeito para
-                    você!</p>
-            </div>
-            <img id="img-coelho-cenoura-2" src="img/coelho-cenoura.gif" alt="">
-        </div>
-        <div id="primeiro-container-celular">
-            <img id="img-coelho-cenoura-1" src="img/coelho-cenoura.gif" alt="">
-            <div id="container-primeiro-paragrafo" class="container-texto">
-                <p id="primeiro-paragrafo">Olá! Se você é novo por aqui e compartilha um amor por coelhos, este site é o
-                    lugar perfeito para
-                    você!</p>
-            </div>
-        </div>
-        <div class="container-parallax"></div>
-        <div class="container-texto">
-            <p>Aqui, você encontrará uma infinidade de informações fascinantes sobre essas adoráveis criaturas
-                peludas. Desde dicas de cuidados até curiosidades sobre diferentes raças, estamos aqui para
-                enriquecer sua experiência com esses encantadores animais.</p>
-        </div>
-        <div class="container-parallax"></div>
-        <div class="container-texto">
-            <p>Explore nossos artigos, vídeos e galerias de fotos para mergulhar no mundo dos coelhos.</p>
-        </div>
-        <div class="container-parallax"></div>
-        <div class="container-texto">
-            <p>Prepare-se para se apaixonar ainda mais por esses companheiros de pelo e descubra novas maneiras de
-                tornar a vida deles ainda mais feliz e saudável.</p>
-        </div>
-        <div class="container-parallax"></div>
-        <div class="container-texto">
-            <p>Bem-vindo à comunidade dos amantes de coelhos!</p>
-        </div>
 
-    </main>
-    <script>
-    function playAudio() {
-        var audio = document.getElementById("meuAudio");
-        audio.play();
-    }
-    </script>
-    <footer>
-        <p><img class="contador" src="https://profile-counter.glitch.me/felipelivros/count.svg"></p>
-        <span>©2024 all rights reserved</span>
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#fotos">Fotos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <section class="intro">
+        <h2>Coelhos Disponíveis</h2>
+        <p>Conheça nossos coelhos encantadores!</p>
+        <p>Temos uma seleção especial de coelhos saudáveis e cheios de personalidade. Cada um é único, com temperamentos
+            que variam entre brincalhões, curiosos ou mais tranquilos e afetuosos. Nossos coelhos recebem cuidados de
+            qualidade e são criados com todo o carinho, garantindo que estarão prontos para trazer alegria ao seu lar.
+        </p>
+
+        <p>Se você está à procura de um novo amigo para alegrar o seu dia a dia, dê uma olhada em nossa galeria. Cada
+            coelho está esperando para encontrar um lar onde possa compartilhar momentos especiais e se tornar uma
+            companhia fiel e amorosa.</p>
+
+    </section>
+
+    <section class="gallery" id="fotos">
+        <h2>Galeria de Fotos</h2>
+        <div class="photo-grid">
+            <div class="photo">
+                <img src="./img/coelho-caixa.png" alt="Coelho 1">
+                <p>Coelho 1</p>
+            </div>
+            <div class="photo">
+                <img src="./img/coelho-dupla.png" alt="Coelho 2">
+                <p>Coelho 2</p>
+            </div>
+            <div class="photo">
+                <img src="https://via.placeholder.com/400x300?text=Coelho+3" alt="Coelho 3">
+                <p>Coelho 3</p>
+            </div>
+            <div class="photo">
+                <img src="https://via.placeholder.com/400x300?text=Coelho+4" alt="Coelho 4">
+                <p>Coelho 4</p>
+            </div>
+            <div class="photo">
+                <img src="https://via.placeholder.com/400x300?text=Coelho+5" alt="Coelho 5">
+                <p>Coelho 5</p>
+            </div>
+            <div class="photo">
+                <img src="https://via.placeholder.com/400x300?text=Coelho+6" alt="Coelho 6">
+                <p>Coelho 6</p>
+            </div>
+            <div class="photo">
+                <img src="https://via.placeholder.com/400x300?text=Coelho+7" alt="Coelho 7">
+                <p>Coelho 7</p>
+            </div>
+            <div class="photo">
+                <img src="https://via.placeholder.com/400x300?text=Coelho+8" alt="Coelho 8">
+                <p>Coelho 8</p>
+            </div>
+            <div class="photo">
+                <img src="https://via.placeholder.com/400x300?text=Coelho+9" alt="Coelho 9">
+                <p>Coelho 9</p>
+            </div>
+            <div class="photo">
+                <img src="https://via.placeholder.com/400x300?text=Coelho+10" alt="Coelho 10">
+                <p>Coelho 10</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contato">
+        <h2>Contato</h2>
+        <p>Entre em contato para saber mais sobre nossos coelhos.</p>
+        <p>Email: aninha2012ribeiro@gmail.com | Telefone: (66) 99615-9351</p>
+        <p>Ana Flávia</p>
+        <p><a href="super-site.html" target="_blank" style="text-decoration: none; color:white;">Super Site</a></p>
     </footer>
 </body>
 
